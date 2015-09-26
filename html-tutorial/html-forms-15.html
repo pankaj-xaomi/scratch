@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Form Tutorial -->
+
+<html>
+
+<head>
+<title>
+    HTML Form tutorial
+</title>
+</head>
+
+<body>
+
+<h1> Form Tutorial </h2>
+<hr>
+<br>
+<form>
+    First Name: <input name="firstname" type="text"><br>
+    Last Name: <input name="secondname" type="text"><br>
+</form>
+
+<br>
+<hr>
+<p><b>Radio</b></p>
+<form>
+    <br><input type="radio" name="sex" value="male"> Male
+    <br><input type="radio" name="sex" value="Female"> Female
+    <br><input type="radio" name="sex" value="other">Other
+</form>
+<br>
+<hr>
+
+<p><b>Submit</b></p>
+<form action="">
+    First Name: <input name="firstname" value="Mark" type="text"><br>
+    Last Name: <input name="lastname" value="Twain" type="text"><br>
+    <input type="submit" value="Submit"><br>
+</form>
+<br>
+<hr>
+
+<p><b>Fieldset</b></p>
+<form action="">
+    <fieldset>
+	<legend> Personal Information: </legend>
+	First Name: <input name="firstname" value="Mark" type="text"><br>
+	Last Name: <input name="lastname" value="Twain" type="text"><br>
+	<input type="submit" value="Submit"><br>
+    </fieldset>
+</form>
+<br>
+<hr>
+
+<p><b>Select</b></p>
+<form action="">
+    <select name="cars">
+	<option value="BMW">BMW</option>
+	<option value="Audi">Audi</option>
+	<option value="Porsche">Porsche</option>
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<hr>
+
+<p><b>TextArea</b></p>
+<form action="">
+    <textarea name="story" rows="20" cols="80">
+	Tell us your story!
+    </textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<hr>
+
+<p><b>Button</b></p>
+<button type="button" onclick="alert('Thanks for clicking :P')">Click Me</button>
+<br>
+<hr>
+
+<p><b>Browsers</b></p>
+<form action="">
+
+    Select/type browser name
+    <br>
+    <input list="browsers" >
+    <datalist id="browsers">
+	<option value="Safari">
+	<option value="IE">
+	<option value="Chrome">
+	<option value="Firefox">
+	<option value="Opera">
+    </datalist>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<hr>
+
+<p><b>Encryption</b></p>
+<form action="">
+    Username: <input type="text" name="username"><br>
+    Encryption: <keygen name="security"><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<hr>
+
+<p><b>Passwordl</b></p>
+<form action="">
+    Username: <input name="username" type="text"><br>
+    Password: <input name="password" type="password"><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<hr>
+
+<p><b>Color</b></p>
+<form action="">
+    Select a color <br>
+    <input type="color" name="favcolor"><br>
+    <input type="submit" value="submit"><br>
+</form>
+<br>
+<hr>
+
+<!-- The input can have several attributes:
+	autocomplete
+	autofocus
+	form
+	formaction
+	formenctype
+	formmethod
+	formnovalidate
+	formtarget
+	height and width
+	list
+	min and max
+	multiple
+	pattern (regexp)
+	placeholder
+	required
+	step
+-->
+</body>
+
+</html>
