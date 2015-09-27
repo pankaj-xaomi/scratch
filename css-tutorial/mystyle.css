@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    /* Also see background-image and background-repeat */
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+/* Text:
+ * color, text-align(left, right..), text-decoration (overline, none,
+ * strikethrough), text-transform(uppercase, lowercase...),
+ * text-indent
+ */
+
+/* Font:
+ * font-family
+ * font-style (italic, normal..)
+ * font-size (em, px, %)
+ */
+
+/* Link:
+ * a:link
+ * a:visited
+ * a:hover
+ * a:active
+ */
+
+/* Border:
+ * border-style (solid, dotted, dash ...)
+ * boder-color
+ * border-[top|bottom|left|right]-style
+ * border-width
+ */
+
+/* Outline:
+ * similar to border, but doesn't take extra space. 
+ */
+
+/* Margin: The margin clears an area around an element (outside the border). The
+ * margin does not have a background color, and is completely transparent.
+ *
+ * margin-[top|bottom|left|right] (length, %, inherit ...)
+ */
+
+/* Padding: The padding clears an area around the content (inside the border) of
+ * an element. The padding is affected by the background color of the element.
+ *
+ * padding-[top|bottom|left|right] (size, %)
+ */
